@@ -19,9 +19,7 @@ find data_in -type f -name "*_space-t1w_DIR.nii.gz" | while read -r img; do
         -i "$(realpath "$img")" \
         -o "$temp_input_dir/${basename}_0000.nii.gz" \
         -device cpu \
-        -mode fast \
-        -tta 0 \
-        -save_mask 0
+        --disable_tta
 
     # 2. Run nnU-Net Inference on the skull-stripped image
     echo "--> Running nnU-Net CP Segmentation..."
