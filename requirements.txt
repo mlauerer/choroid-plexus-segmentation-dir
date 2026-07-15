@@ -1,0 +1,10 @@
+# Core deep learning & segmentation dependencies
+torch
+torchvision
+nnunetv2
+
+# Brain extraction (skull-stripping)
+git+https://github.com/MIC-DKFZ/HD-BET.git
+
+# GUI and utility dependencies
+gradio

@@ -1,0 +1,21 @@
+# Ignore python virtual environments
+nnunet_env/
+venv/
+__pycache__/
+*.pyc
+
+# Ignore input clinical data and output masks
+data_in/
+data_in_flat/
+data_out/
+temp_input_dir/
+
+# Ignore the heavy model weights folder 
+# (We will provide a link to download this instead)
+cp_inference_model/
+*.zip
+*.pth
+
+# OS specific files
+.DS_Store
+Thumbs.db
