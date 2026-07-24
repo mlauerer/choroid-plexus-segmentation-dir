@@ -1,10 +1,17 @@
-# Core deep learning & segmentation dependencies
-torch
-torchvision
-nnunetv2
+# PyTorch Core (Users should ensure CUDA version matches system drivers)
+torch>=2.0.0
+torchvision>=0.15.0
 
-# Brain extraction (skull-stripping)
+# Medical Image I/O & Preprocessing
+nibabel>=5.0.0
+numpy<2.0.0
+
+# Segmentation Framework
+nnunetv2>=2.2
+batchgenerators>=0.25
+
+# Brain Extraction (HD-BET directly from DKFZ GitHub)
 git+https://github.com/MIC-DKFZ/HD-BET.git
 
-# GUI and utility dependencies
-gradio
+# Web GUI Interface
+gradio>=4.0.0
