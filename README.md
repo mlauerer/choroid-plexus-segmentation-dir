@@ -146,10 +146,12 @@ If out-of-the-box performance is insufficient due to center-specific acquisition
 If you use this tool or model in your research, please cite our paper:
 
 ```bibtex
-@article{lauerer2026choroid,
-  title={Improved segmentation of the choroid plexus using double inversion recovery MRI},
-  author={Lauerer, M. et al.},
+@article{lauerer2026choroidplexusdir,
+  title={Improved visualization and segmentation of the choroid plexus using double inversion recovery MRI},
+  author={Lauerer, Markus and McGinnis, Julian and Berberich, Cornelius and Wiltgen, Tun and Høgestøl, Einar August and Berg-Hansen, Pål and Kirschke, Jan S and Hemmer, Bernhard and Mühlau, Mark},
   journal={medRxiv},
-  year={2026}
+  year={2026},
+  doi={10.64898/2026.08.13.26360360},
+  url={https://doi.org/10.64898/2026.08.13.26360360}
 }
 ```
